@@ -37,7 +37,7 @@ export default function CatalogoPage() {
       .order('created_at', { ascending: false })
     const rs = data || []
     setRisorse(rs)
-    const ms = [...new Set(rs.map((r: Risorsa) => r.materia).filter(Boolean))]
+ const ms = Array.from(new Set(rs.map((r: Risorsa) => r.materia).filter(Boolean))) as string[]
     setMaterie(ms)
     setLoading(false)
   }
