@@ -142,7 +142,8 @@ export default function AdminPage() {
       <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '2rem' }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
           <div style={{ width: '7px', height: '7px', borderRadius: '50%', background: '#a78bfa' }} />
-          <span style={{ fontFamily: 'monospace', fontSize: '15px', color: '#a78bfa', fontWeight: 500 }}>classboard / admin</span>
+          <a href="/" style={{ fontFamily: 'monospace', fontSize: '15px', color: '#a78bfa', fontWeight: 500, textDecoration: 'none' }}>classboard</a>
+<span style={{ fontFamily: 'monospace', fontSize: '15px', color: 'rgba(167,139,250,0.4)', fontWeight: 500 }}> / admin</span>
         </div>
         <div style={{ display: 'flex', gap: '8px' }}>
           <button style={tabStyle(sezione === 'risorse')} onClick={() => setSezione('risorse')}>risorse</button>

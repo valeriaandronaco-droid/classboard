@@ -8,17 +8,17 @@ export default function Home() {
           <div style={{ width: '7px', height: '7px', borderRadius: '50%', background: '#a78bfa' }} />
           classboard
         </div>
-        <div style={{ display: 'flex', gap: '1.5rem', fontSize: '13px', color: 'rgba(226,232,240,0.55)' }}>
-          <span style={{ color: '#a78bfa' }}>home</span>
-          <span>progetti</span>
-          <span>tutorial</span>
-          <span>ebook</span>
-          <span>community</span>
-          <span>studenti</span>
-        </div>
-        <div style={{ fontSize: '12px', fontWeight: 500, padding: '6px 14px', border: '0.5px solid rgba(167,139,250,0.5)', borderRadius: '6px', color: '#a78bfa', background: 'rgba(167,139,250,0.06)', cursor: 'pointer' }}>
-          accedi
-        </div>
+<div style={{ display: 'flex', gap: '1.5rem', fontSize: '13px', color: 'rgba(226,232,240,0.55)' }}>
+  <span style={{ color: '#a78bfa' }}>home</span>
+  <a href="/catalogo" style={{ color: 'rgba(226,232,240,0.55)', textDecoration: 'none' }}>progetti</a>
+  <a href="/catalogo" style={{ color: 'rgba(226,232,240,0.55)', textDecoration: 'none' }}>tutorial</a>
+  <a href="/catalogo" style={{ color: 'rgba(226,232,240,0.55)', textDecoration: 'none' }}>ebook</a>
+  <span style={{ color: 'rgba(226,232,240,0.55)' }}>community</span>
+  <span style={{ color: 'rgba(226,232,240,0.55)' }}>studenti</span>
+</div>
+<a href="/admin" style={{ fontSize: '12px', fontWeight: 500, padding: '6px 14px', border: '0.5px solid rgba(167,139,250,0.5)', borderRadius: '6px', color: '#a78bfa', background: 'rgba(167,139,250,0.06)', cursor: 'pointer', textDecoration: 'none' }}>
+  admin
+</a>
       </nav>
 
       {/* HERO */}
