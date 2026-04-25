@@ -159,7 +159,7 @@ export default function CatalogoPage() {
       {/* FOOTER */}
       <footer style={{ borderTop: '1px solid rgba(0,0,0,0.08)', padding: '1.5rem 2rem', display: 'flex', justifyContent: 'space-between', alignItems: 'center', background: '#ffffff', marginTop: '2rem' }}>
         <span style={{ fontFamily: 'Georgia, serif', fontSize: '16px', fontWeight: 700, color: '#2E7D5E' }}>classboard</span>
-        <span style={{ fontSize: '12px', color: '#888' }}>© 2025 — fatto da docenti, per docenti</span>
+        <span style={{ fontSize: '12px', color: '#888' }}>© 2026 — fatto da docenti, per docenti</span>
       </footer>
 
     </div>
